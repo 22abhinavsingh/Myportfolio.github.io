@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.act{
+    border-bottom: 1px solid white; 
+}
+.modal-dialog{
+    width: 50%;
+    height: 200vh !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+.menu{
+    background-color: black !important;
+}
+
+.logo h1{
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    color: white !important;
+    font-family: 'Great Vibes', cursive;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(104, 236, 253);
+}
+.logo a{
+    text-decoration: none !important;
+    color: rgb(243, 9, 243) !important;
+}
+
+
+ul li > a{
+    color: white !important;
+}
+
+
+ul li > a:hover{
+    background-color: rgb(78, 122, 187);
+    border-radius: 10%;
+    border-bottom: 1px solid white;
+}
+
+body{
+    background-image:url("port2.jpg");
+    background-size: cover;
+    background-blend-mode: darken,luminosity;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.but p1:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(235, 111, 235);
+    border-radius: 1vh;
+}
+
+.but p2:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235);
+    border-radius: 1vh;
+
+}
+
+.but p3:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235) ;
+    border-radius: 1vh;
+
+}
+
+.but{
+    
+    width: fit-content;
+   margin-left: 10%;
+   position: relative;
+   align-items: center;
+   padding-top: 1%;
+  
+}
+
+
+.but2
+{
+    width: fit-content;
+   
+    margin-right: 8%;
+
+    
+}
+
+.box{
+    position: relative;
+    display: flex;
+    top: 20vh;
+    color: whitesmoke;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 48, 51);
+}
+
+feet{
+    bottom: 0%;
+}
+
+
+
+.port h1{
+    color: rgb(255, 255, 255);
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1vh;
+}
+
+.port{
+margin-top: 10vh;
+padding-left: 3vh;
+position: relative;
+align-self: center;
+border-bottom: 2px solid white;
+}
+
+.port1{
+    /* border: 2px solid white; */
+    padding: 2vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.port1 h1{
+    color: aliceblue;
+    font-size: 7vh;
+    font-family:'Courier New', Courier, monospace;
+    padding: 3vh;
+}
+
+p1{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1vh;
+}
+
+p2{
+    color: aqua;
+    font-size: medium;
+}
+
+.lead{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+.lead:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+}
+
+.ssb:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.media:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    background-color: rgb(102, 101, 101);
+    border-style: dashed;
+}
+
+
+.ssb{
+    margin-bottom: 2vh;
+    width: fit-content;
+    border-radius: 5vh;
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    padding: 2vh;
+    margin-bottom: 5vh;
+
+}
+
+.media{
+    width: fit-content;
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    padding: 2vh;
+    margin-bottom: 5vh;
+
+}
+
+
+.web:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.excel:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.webd:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.web{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+.excel{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+
+.webd{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+
+.tool:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.java:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.exm:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.tool{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+.java{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+
+.exm{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+
+.hob:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.sing:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.read:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+
+}
+
+.hob{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+.sing{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+.read{
+    border-right: 5px solid rgb(206, 175, 175);
+    border-bottom: 5px solid rgb(206, 175, 175);
+    border-radius: 5vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    padding: 2vh;
+}
+
+
+.port1 a:hover{
+    background-color: aliceblue;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    color: black;
+    font-weight: bolder;
+}
+
+/* .footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(54, 56, 56);
+    color: whitesmoke;
+    font-weight: normal;
+    align-items: center;
+    bottom: 0%;
+
+} */
+
+
+.but p1:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(235, 111, 235);
+    border-radius: 1vh;
+}
+
+.but p2:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235);
+    border-radius: 1vh;
+
+}
+
+.but p3:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235) ;
+    border-radius: 1vh;
+
+}
+
+.but{
+    
+    width: fit-content;
+   margin-left: 10%;
+   position: relative;
+   align-items: center;
+   padding-top: 1%;
+  
+}
+
+.but2
+{
+    width: fit-content;
+    margin-right: 8%;  
+}
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(53, 58, 58);
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.med{
+    border-radius: 1vh;
+    margin-left: 2vh;
+  
+}
+
+.text1{
+    color: rgb(255, 255, 255)!important;
+    font-weight: normal;
+} 
+
+
+.but2 button{
+    background: none;
+    padding: .5vh;
+
+}
+
+.but2 button:hover{
+    background-color:rgb(235, 111, 235) ;
+}
+
+.text1:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.but p2{
+    color: #ffffff;
+}
+

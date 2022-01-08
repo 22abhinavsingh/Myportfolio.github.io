@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.act{
+    border-bottom: 1px solid white; 
+}
+.modal-dialog{
+    width: 50%;
+    height: 200vh !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+
+.menu{
+    background-color: black !important;
+}
+
+.logo h1{
+    font-size: 28px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    color: white !important;
+    font-family: 'Great Vibes', cursive;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(104, 236, 253);
+}
+.logo a{
+    text-decoration: none !important;
+    color: rgb(243, 9, 243) !important;
+}
+
+
+ul li > a{
+    color: white !important;
+}
+
+
+ul li > a:hover{
+    background-color: rgb(78, 122, 187);
+    border-radius: 10%;
+    border-bottom: 1px solid white;
+}
+
+body{
+    background-image:url("port1.jpg");
+    background-size: cover;
+    background-blend-mode: darken,luminosity;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.but p1:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(235, 111, 235);
+    border-radius: 1vh;
+}
+
+.but p2:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235);
+    border-radius: 1vh;
+
+}
+
+.but p3:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235) ;
+    border-radius: 1vh;
+
+}
+
+.but{
+    
+    width: fit-content;
+   margin-left: 10%;
+   position: relative;
+   align-items: center;
+   padding-top: 1%;
+  
+}
+
+
+.but2
+{
+    width: fit-content;
+   
+    margin-right: 8%;
+
+    
+}
+
+.box{
+    position: relative;
+    display: flex;
+    top: 20vh;
+    color: whitesmoke;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 58, 58);
+}
+
+feet{
+    bottom: 0%;
+}
+
+
+.but p1:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: rgb(235, 111, 235);
+    border-radius: 1vh;
+}
+
+.but p2:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235);
+    border-radius: 1vh;
+
+}
+
+.but p3:hover{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color:rgb(235, 111, 235) ;
+    border-radius: 1vh;
+
+}
+
+.but{
+    
+    width: fit-content;
+   margin-left: 10%;
+   position: relative;
+   align-items: center;
+   padding-top: 1%;
+  
+}
+
+.but2
+{
+    width: fit-content;
+   
+    margin-right: 8%;
+
+    
+}
+
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.med{
+    border-radius: 1vh;
+    margin-left: 2vh;
+  
+}
+
+.text1{
+    color: rgb(14, 14, 14)!important;
+    font-weight: bold;
+} 
+
+
+.port1 h1{
+    padding-top: 9vh;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+    font-weight: 700;
+    padding-left: 8vh;
+    margin-bottom: 2vh;
+}
+
+
+.port4 h1{
+    color: aliceblue;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    padding: 3vh;
+    font-weight:bold;
+    margin-left: 3vh;
+
+}
+
+.port2{
+    border-right: 4px solid white; 
+    border-bottom: 4px solid white;
+    border-radius: 5vh; 
+    padding: 2vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3vh;
+    width: fit-content;
+
+}
+
+.port2:hover{
+    border-radius: 5vh;
+    border: 5px solid #ffffff;
+    border-style: dashed;
+    background-color: rgb(102, 101, 101);
+}
+
+.port2 p1:hover{
+    color: black;
+}
+
+.port3 p1:hover{
+    color: black;
+}
+
+.acc:hover{
+        border-radius: 5vh;
+        border: 5px solid #ffffff;
+        border-style: dashed;
+        background-color: rgb(102, 101, 101);
+}
+p1{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1vh;
+
+}
+
+.port3 h1{
+    color: aliceblue;
+    font-size: 5vh;
+    font-family:'Courier New', Courier, monospace;
+    padding: 3vh;
+    font-weight:bold;
+    margin-left: 3vh;
+
+}
+
+.acc{
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-radius: 5vh;
+    padding-left: 2vh ; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3vh;
+    width: 50vh;
+
+}
+
+.form{
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-radius: 5vh;
+    padding-left: 2vh ; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 3vh;
+    width: 70vh;
+
+}
+
+label{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input{
+    border: 1px solid white;
+    border-radius: 2vh;
+    background: none;
+    color: aliceblue;
+    font-size: medium;
+    letter-spacing: 0.3vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[id="email"]{
+    width: 40vh;
+}
+
+input[id="comment"]{
+    width: 50vh;
+    height: 20vh;
+}
+
+input[id="submit"]{
+    padding: 1vh;
+}
+
+input[id="submit"]:hover{
+    background-color: #ffffff;
+    color: black;
+    font-weight: bolder;
+}
+
+.form:hover{
+        border-radius: 5vh;
+        border: 5px solid #ffffff;
+        border-style: dashed;
+}
+
+.port3 a:hover{
+    background-color: aliceblue;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.text1{
+    color: rgb(255, 255, 255)!important;
+    font-weight: normal;
+} 
+
+
+.but2 button{
+    background: none;
+    padding: .5vh;
+
+}
+
+.but2 button:hover{
+    background-color:rgb(235, 111, 235) ;
+}
+
+.text1:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.but p2{
+    color: #ffffff;
+}
